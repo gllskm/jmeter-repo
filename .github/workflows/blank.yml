@@ -33,11 +33,7 @@ jobs:
     # jmeter test plan to execute
          test-plan-path: 'RemoveAddcart.JMX'
 
-      - name: Upload Results
-        uses: actions/upload-artifact@v2
-        with:
-         name: JMeter-results
-         path: result.Jtl
+      
 
         
          
